@@ -1,3 +1,12 @@
+
+/*
+ * main.c
+ * Created: 27/04/2013
+ * Author: esanchez.briones@gmail.com
+ * Hackaton!, http://www.hackathonmty.org/
+ * Description: RFID-RC522 Implementation
+ */ 
+
 #include <linux/spi/spidev.h>
 #include <string.h>
 #include <stdio.h>

@@ -13,5 +13,4 @@
 	void SET_OUTPUT(int Gbit);
 	void SET_BIT(int Gbit);
 	void CLR_BIT(int Gbit);
-
 #endif /* GPIO_H_ */
