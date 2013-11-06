@@ -21,7 +21,7 @@
 #include <linux/types.h>
 #include <linux/spi/spidev.h>
 
-#include "./Rfid/MF522.h"
+#include "./Driver/MF522.h"
 #define ARRAY_SIZE(a) (sizeof(a) / sizeof((a)[0]))
 
 unsigned char sectorKeyA[16][16] = {{0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF},
